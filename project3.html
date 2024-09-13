@@ -1,0 +1,160 @@
+﻿ <!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8"/> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- CSS-->
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <!-- jquery-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- js-->
+    <script src="js/bootstrap.js"></script>
+
+<title>Express Lab</title>
+    <style>
+        body::before{
+            content: '';
+            display: block;
+            height: 57px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <!--navbar form-->
+    
+    
+    
+
+    <div class="navbar navbar-expand-md bg-dark navbar-dark text-white fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand text-warning"> Express Lab </a>
+
+            <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainmenu">
+                <ul class="navbar-nav ms-auto col-">
+
+                    <li class="nav-item"><a href="project5.html" class="nav-link">التحضيرات</a></li>
+                    <li class="nav-item"><a href="project4.html" class="nav-link">نتائج التحليل</a></li>
+                    <li class="nav-item"><a href="project3.html" class="nav-link active">حجز زيارة</a></li>
+                    <li class="nav-item"><a href="project2.html" class="nav-link">العروض</a></li>
+                    <li class="nav-item"><a href="project1.html" class="nav-link ">من نحن</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link ">الصفحة الرئيسية</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+<!--
+     <form action="con11.php" method="post">
+     <input type="text" name="uname"/> 
+     <input type="password" name="pass"/>
+     <input type="submit" name="send"/>  
+
+     </form>
+
+    -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    <h1 class="text-center bg-danger">ادخل البيانات</h1>
+
+    <form class="text-left" action="con11.php" method="POST">
+        <div class="row mb-3">
+            <label for="inputname" class="col-sm-2 col-form-label ">*الاسم الرباعي</label>
+            <div class="col-sm-10">
+                <input type="text" name="name"  class="form-control" maxlength="40" placeholder="ادخل الاسم" id="inputname">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputnumber" class="col-sm-2 col-form-label">*رقم الهاتف</label>
+            <div class="col-sm-10">
+                <input type="text" name="number" class="form-control" maxlength="12" placeholder="ادخل الرقم" id="inputnumber">
+            </div>
+        </div>
+        <fieldset class="row mb-3">
+            <legend class="col-form-label col-sm-2 pt-0">*الجنس</legend>
+            <div class="col-sm-10 text-left">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Type" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                        ذكر
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Type" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                        انثى
+                    </label>
+                </div>
+
+            </div>
+        </fieldset>
+        <p>*العنوان</p>
+        <div class="form-floating">
+            <textarea class="form-control" name="address" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label class="text-danger">*اشرح العنوان بتحديد</label>
+        </div>
+
+        <p class="text-danger">ملاحظة: في حال لم يتم ايداع مبلغ 1$ في اي من الحسابات ادناه بنفس اسم الحجز لن يتم التواصل</p>
+
+        <p type="text" class="btn btn-success">ام فلوس:904716</p>
+        <p type="text" class="btn btn-success">كاش:800213</p>
+        <p type="text" class="btn btn-success">محفظتي:260453</p>
+        <br />
+        <button type="submit" class="btn btn-primary">ارسال</button>
+        <br />
+        <br />
+
+    </form>
+
+
+
+
+
+
+
+    <!--footer-->
+
+    <footer class="py-4 bg-dark text-white text-center position-relative ">
+        <div class="container">
+            <p class="lead">
+                copyright &copy; 2022 shehab waqedi
+            </p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-3 ">
+                <i class="bi bi-arrow-up-circle h2"></i>
+            </a>
+
+        </div>
+    </footer>
+
+
+
+
+</body>
+</html>  
